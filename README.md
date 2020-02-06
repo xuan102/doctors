@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Database creation
 
-Things you may want to cover:
+`rails db:migrate`
 
-* Ruby version
+### Database initialisation
 
-* System dependencies
+`rails db:seed`
 
-* Configuration
+`rails c`
 
-* Database creation
 
-* Database initialization
+## 🔥 Démarrage
 
-* How to run the test suite
+Une fois dans la console Rails (`rails c`) vous pourrez explorer les tables de données suivantes avec la commande tp de la gem table_print (installée grâce au Gemfile présent lors du `bundle install`) :
 
-* Services (job queues, cache servers, search engines, etc.)
+`tp Doctor.all`
 
-* Deployment instructions
+`tp Patient.all`
 
-* ...
+`tp Appointment.all`
+
+`tp City.all
+
+tp JoinTableDoctorSpecialty.all
+
+tp Specialty.all
